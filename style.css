@@ -1,0 +1,88 @@
+body {
+
+	background-color: aqua;
+
+}
+
+.textview {
+	display: inline-block;
+	margin: 5%;
+	padding: 10%;
+	font-size: 20px;
+	font-weight: bold;
+	background-color: rgba(245, 242, 237, 0.589);
+	box-shadow: 0 3px #666;
+	border: none;
+}
+
+.equalButton {
+	cursor: pointer;
+	display: inline-block;
+	margin: 2px;
+	width: 85px;
+	height: 98px;
+	outline: none;
+	font-size: 25px;
+	font-weight: bold;
+	border-radius: 5px;
+
+}
+
+.button {
+	cursor: pointer;
+	display: inline-block;
+	width: 90px;
+	height: 50px;
+	font-size: 20px;
+	font-weight: bold;
+	border-radius: 5px;
+	outline: none;
+
+}
+
+.button:hover,
+.equalButton:hover {
+	background-color: #FFBA75;
+
+}
+
+.allclearButton {
+	cursor: pointer;
+	border-radius: 5px;
+	color: #FFF;
+	margin: 2px;
+	width: 85px;
+	height: 48px;
+	background-color: #bd1717;
+	outline: none;
+}
+
+h1 {
+	color: rebeccapurple;
+	font-size: 40px;
+	text-justify: newspaper;
+	text-align: center;
+	text-transform: uppercase;
+
+}
+
+.container {
+	background: rgba(197, 143, 143, 0.589);
+	position: absolute;
+	top: 50%;
+   
+	width: 380px;
+	margin: auto;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%)
+}
+
+.box-shadow-3d{
+    box-shadow: 1px 1px 0px #999,
+                2px 2px 0px #999,
+                3px 3px 0px #999,
+                4px 4px 0px #999,
+                5px 5px 0px #999,
+                6px 6px 0px #999;
+}
+
